@@ -1,0 +1,7 @@
+.*
+!.appveyor.yml
+!.eslintrc.yml
+!.git*
+!.travis.yml
+dist/
+node_modules/

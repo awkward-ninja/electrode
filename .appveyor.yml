@@ -1,0 +1,7 @@
+install:
+  - ps: Install-Product node ''
+  - node --version
+  - npm --version
+  - yarn --version
+  - yarn --frozen-lockfile
+build_script: [ yarn release ]

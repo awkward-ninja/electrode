@@ -1,0 +1,18 @@
+body { border: 2px solid black; }
+
+aside > nav { background: #101216; }
+
+main > nav { background: #181818; }
+
+main > article { background: #101010; }
+
+div:hover { background: slategray; }
+
+h2 { color: silver; }
+
+button {
+  background: inherit;
+  color: #101216;
+}
+
+header:hover > button { color: silver; }

@@ -1,0 +1,33 @@
+html, body {
+  height: 100%;
+  background: black;
+  font-size: 9pt;
+  font-family: monospace;
+}
+
+body, aside, main { display: grid; }
+
+body { box-sizing: border-box; }
+
+body > div { cursor: col-resize; }
+
+aside > div { cursor: row-resize; }
+
+header { display: grid; }
+
+h2, button {
+  margin: 4px;
+  font-weight: bold;
+}
+
+h2 {
+  font-size: 100%;
+}
+
+button {
+  padding: 0;
+  border: none;
+  outline: none;
+}
+
+button:active { transform: scale(0.75) }

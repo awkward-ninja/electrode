@@ -1,0 +1,21 @@
+## Roadmap
+
+- Compile and load WebAssembly modules
+- Complete Electron security recommendations
+- Complete Electron performance recommendations
+- Audit application code with Devtron
+- Add README badges
+- Add docker container for sample MySQL database
+- Add MySQL data connection selector panel
+- Add MySQL data schema tree panel
+- Add MySQL basic data grid main panel
+- Add tabs for multiple main panels
+- Add breadcrumbs for active main panel
+- Put panelling logic in reusable module
+- Add automatic diagnostic bug reporting
+- Support versioned releases via tags
+- Package with auto updater for Windows
+- Package with auto updater for Mac
+- Package with auto updater for Linux
+- Package with code signing for Windows
+- Package with code signing for Mac

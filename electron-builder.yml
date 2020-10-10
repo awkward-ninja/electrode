@@ -1,0 +1,9 @@
+appId: org.awkward-ninja.trilogy
+productName: Trilogy
+mac:
+  publish: { provider: github }
+win:
+  publish: { provider: github }
+linux:
+  publish: { provider: github }
+files: [ dist/main.js, dist/renderer.html ]
